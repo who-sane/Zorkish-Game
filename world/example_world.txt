@@ -1,0 +1,34 @@
+1; Forest Entrance; A serene entrance to a dense forest.; north=2, east=3, south=4, west=5;
+    Rock: A small rock blending with the forest floor.; [Takeable]
+    Flower: A beautiful daisy swaying in the wind.; [Takeable]
+    Bag: A rugged leather bag, useful for holding items.; [Takeable, Container]
+        Coin: A shiny gold coin.; [Takeable]
+        Map: A weathered map with forest trails marked.; [Takeable]
+        Key: A small bronze key, looks like it might unlock something.; [Takeable]
+    Chest: A heavy wooden chest, old and sturdy.; [Lockable=Key, Container, Openable]
+        Gem: A beautiful gem, hidden from view.; [Takeable]
+    Mailbox: A rusted mailbox standing by the trail.; [Container]
+        Letter: A weathered letter with faded ink.; [Takeable]
+    Torch: A wooden torch with a small flame flickering at the tip.; [Takeable, Usable]
+    Poison: A small vial with a dark liquid inside, smells dangerous.; [Takeable, Usable, Health=-3]
+
+2; Dark Woods; A mysterious forest with towering trees and eerie silence.; south=1, east=3;
+    Stick: A sturdy stick, good for walking or self-defense.; [Takeable]
+    Potion: A small vial filled with a glowing liquid.; [Takeable, Usable, Health=+2]
+    Poison: A small vial with a dark liquid inside, smells dangerous.; [Takeable, Usable, Health=-3]
+
+3; Jagged Path; A rugged path with loose gravel winding through the wilderness.; west=1, north=2, south=4;
+    Pebble: A smooth pebble, polished by time.; [Takeable]
+    Potion: A restorative drink in a small vial.; [Takeable, Usable, Health=+5]
+
+4; Mountain Base; The base of a mighty mountain, with rocky trails and fresh air.; north=3, east=5;
+    Round Rock: A round rock glistening in the sunlight.; [Takeable]
+    Herb: A medicinal herb growing by the mountain trail.; [Takeable, Usable, Health=+1]
+
+5; River Trail; A gentle bend in the river, surrounded by lush forest.; west=4, south=1;
+    Canoe: A light canoe for navigating the river.
+    Fish: A slippery fish darting through the water.; [Takeable]
+    Basket: A woven basket perfect for carrying items.; [Takeable, Container]
+        Apple: A crisp, juicy apple.; [Takeable, Usable, Health=+3]
+        Stone: A peculiar stone with markings.; [Takeable]
+    Poison: A small vial with a dark liquid inside, smells dangerous.; [Takeable, Usable, Health=-3]
